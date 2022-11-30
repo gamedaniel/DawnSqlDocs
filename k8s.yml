@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dawnsql-docs
+  namespace: dawnsql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dawnsql-docs
+  template:
+    metadata:
+      labels:
+        app: dawnsql-docs
+    spec:
+      containers:
+        - name: dawnsql-docs
+          image: dawnsql/dawnsql-docs:{version}
+          ports:
+            - containerPort: 80
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dawnsql-docs
+  namespace: dawnsql
+spec:
+  selector:
+    app: dawnsql-docs
+  ports:
+    - port: 80
+      targetPort: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dawnsql-docs
+  namespace: dawnsql
+spec:
+  rules:
+    - host: docs.dawnsql.com
+      http:
+        paths:
+          - backend:
+              service:
+                name: dawnsql-docs
+                port:
+                  number: 80
+            path: /
+            pathType: Prefix
