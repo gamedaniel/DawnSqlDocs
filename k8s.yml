@@ -17,7 +17,7 @@ spec:
         - name: dawnsql-docs
           image: dawnsql/dawnsql-docs:{version}
           ports:
-            - containerPort: 80
+            - containerPort: 3000
           imagePullPolicy: Always
 ---
 apiVersion: v1
@@ -30,7 +30,7 @@ spec:
     app: dawnsql-docs
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 3000
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
