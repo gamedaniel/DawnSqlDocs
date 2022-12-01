@@ -8,7 +8,7 @@
 
 ## 2、下载地址
 ### 2.1、Java 下载地址：https://www.java.com/en/download/
-### 2.2、DawnSql 下载地址：https://share.weiyun.com/vRJ7a1Ss
+### 2.2、DawnSql 下载地址：https://share.weiyun.com/mAh3t8oI
 ### 2.3、Dbeaver 下载地址：https://dbeaver.io/download/
 ### 2.4、DawnSqlClient 下载地址：
 **DawnSqlClient 是我们开源的一个 web 的 Sql 编辑器，它可以取代桌面的 Dbeaver ，同时也能够快速方便的扩展成其它的应用。**
