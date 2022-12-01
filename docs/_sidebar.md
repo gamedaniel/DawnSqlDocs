@@ -15,7 +15,7 @@
 
 - 为什么要发明DawnSql语言
 
-  - [DawnSql语法](DawnSql语言/为什么要发明DawnSql语言_1.md)
+  - [DawnSql语言](DawnSql语言/为什么要发明DawnSql语言_1.md)
   - [DawnSql语法](DawnSql语言/DawnSql语法_2.md)
   - [DawnSql操作数据库的函数](DawnSql语言/DawnSql操作数据库的函数_3.md)
   - [DawnSql中的函数](DawnSql语言/DawnSql中的函数.md)
