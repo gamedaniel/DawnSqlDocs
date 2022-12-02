@@ -18,10 +18,10 @@ function 函数名 (参数:参数类型, 参数:参数类型)
 
 <span style="font-size: larger;font-weight: bolder;">例如：</span>
 定义函数 hello_world 输入字符串
-![dawn_sql_1](/Users/chenfei/Documents/Java/MyGridGain/smart-sql/doc/smart_sql_img/dawn_sql_1.jpg)
+<img src='/smart_sql_img/dawn_sql_1.jpg'></img>
 <br/>
 定义函数 hello_world 输入整数类型
-![dawn_sql_2](/Users/chenfei/Documents/Java/MyGridGain/smart-sql/doc/smart_sql_img/dawn_sql_2.jpg)
+<img src='/smart_sql_img/dawn_sql_2.jpg'></img>
 
 ## Dawn Sql 中的数据类型
 
@@ -70,7 +70,7 @@ for (参数 in 序列或者Iterator)
 ```
 ### 只有序列和 Iterator(迭代) 的数据类型才能使用 for 循环
 
-**特别注意：对于 C/C++， java 程序员来说，for 循环是可以有数字的，但是 smart sql 中只能是序列或者迭代**
+**特别注意：对于 C/C++， java 程序员来说，for 循环是可以有数字的，但是 dawn sql 中只能是序列或者迭代**
 **如果需要达到向数字一样的结果，dawn sql 用 range 函数先生成这个序列，在来循环其中的每一项。**
 *range(end) 生成一个从 0 到这个end的序列*
 *range(start, end) 生成一个从 start 到这个end的序列*
