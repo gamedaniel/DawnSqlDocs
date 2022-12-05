@@ -30,8 +30,7 @@ tableColumn := columnName columnType [DEFAULT(defaultValue)] [PRIMARY KEY] [auto
    XXX 取值是通过配置文件设置的。这个根据实际项目的情况来设置。
    例如：
    
-
-![create_table_template](https://gitee.com/wltz/Dawn-sql/raw/master/doc/Dawn_sql_img/create_table_template.jpg)
+<img src='/smart_sql_img/create_table_template.jpg'></img>
 
 
 | 值   | 说明                                         |
