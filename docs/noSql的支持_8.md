@@ -37,7 +37,7 @@ noSqlCreate({'table_name': 'myy.emp_cache',  'is_cache': true, 'mode': 'replicat
 noSqlDrop({"table_name": "my_cache"});
 
 -- 如果是 root 用户删除其它 schema 的缓存，需要添加 schema_name
-noSqlDrop({'table_name': 'my_cache', 'schema_name': 'myy'});
+noSqlDrop({'table_name': 'myy.my_cache'});
 ```
 
 ## 3、插入数据  cache
