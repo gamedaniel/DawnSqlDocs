@@ -26,6 +26,20 @@ query_sql("INSERT INTO public.Categories (CategoryID, CategoryName, Description,
 query_sql("INSERT INTO public.Categories (CategoryID, CategoryName, Description, Picture) VALUES(100+?,concat(?, '是大帅哥！'),?, '')", [1, "吴大富", "吴大贵"]);
 ```
 
+
+<span style="font-weight: bolder;">query_sql 方法执行 select 语句返回 java.util.Iterator<List<?>>。所以它支持两个方法：<br/>hasNext() 判断是否还有下一个。<br/>next() 下一个值。</span>
+
+例如：执行 count、sum 等之类的方法可以这么来做
+```sql
+function get_emp_count()
+{
+    query_sql("SELECT COUNT(DISTINCT o.EmployeeID)
+                        FROM public.Orders o
+                        LEFT JOIN public.Employees e  ON o.EmployeeID=e.EmployeeID").next().FIRST();
+}
+get_emp_count();
+```
+
 ## 2、trans(Sql或者NoSql 的序列) 事务函数
 ```sql
 -- trans 接收一个序列，使得执行序列中的语句拥有事务性
