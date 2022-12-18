@@ -4,11 +4,11 @@ NoSql 的数据结构为 key-value 形式的 hash map。<br/>
 它分为两种类型：<br/>
 1、纯内存 cahe，它有缓存大小的现在，有缓存退出的策略。默认我们选择 RANDOM_2_LRU 作为退出策略。相应的参数可以在配置文件中配置<br/>
 
-<img src='https://gitee.com/wltz/smart-sql/raw/master/doc/smart_sql_img/LRU.jpg'></img>
+<img src='/smart_sql_img/LRU.jpg'></img>
 
 **注意：纯内存模式，默认是不开启的！开启纯内存模式之前一定要做严格的 POC 来确定项目中要开启纯内存模式所需的内存大小，避免在项目中频繁生成大量的纯内存 cache 使得划定的内存不够用，造成的错误！**
 
-<img src='https://gitee.com/wltz/smart-sql/raw/master/doc/smart_sql_img/cache.jpg'></img>
+<img src='/smart_sql_img/cache.jpg'></img>
 
 
 2、可持久化的 cache。这种 cache 一部分在内存中，全部数据在磁盘上。
