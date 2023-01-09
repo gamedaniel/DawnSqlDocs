@@ -6,7 +6,7 @@ DawnSql 是一个超融合的，新函数式理念，它要实现的功能相当
 
 ### 1、设置是否多用户组
 
-![multiUserGroup](https://gitee.com/wltz/smart-sql/raw/master/doc/smart_sql_img/multiUserGroup.jpg)
+<img src='/smart_sql_img/multiUserGroup.jpg'></img>
 
 设置多用户组为 true 后，就可以设置不同的 schema。schema 是数据表、no sql 和对应方法的集合，也就是说数据集包含了一个或多个表，no sql 和方法。一个用户组只属于一个 schema。另外还有一个 public schema为公共数据 schema。
 *schema 可以理解为一个子系统的数据库*
