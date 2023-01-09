@@ -22,33 +22,36 @@ DawnSql 是一个超融合的，新函数式理念，它要实现的功能相当
 
 **具体的操作**
 
+**schema 相当于数据表的集合。当新建用户组的是，需要给它指定一个 schema。默认它可以读写同一个schema 中的所有表，当然也可以给它添加权限视图，让它的读写权限受到限制。如果一个用户组要读写其它 schema 中的表，就一定要设置权限视图！**
 ### 1.1、添加数据集（schema）
+
+### 1.1、添加数据表的集合（schema）
 
 ```sql
 -- 1、
--- 新增数据集 myy
+-- 新增数据表的集合 myy
 create schema if not exists myy;
 -- 或者
 create schema myy;
 
 -- 2、
--- 新增数据集 wudafu
+-- 新增数据表的集合 wudafu
 create schema if not exists wudafu;
 -- 或者
 create schema wudafu;
 
 -- 3、
--- 新增数据集 wudagui
+-- 新增数据表的集合 wudagui
 create schema if not exists wudagui;
 -- 或者
 create schema wudagui;
 ```
 
-如果要删除数据集
+如果要删除数据表的集合
 
 ```sql
 -- 1、
--- 删除数据集 myy
+-- 删除数据表的集合 myy
 drop schema if exists myy;
 -- 或者
 drop schema myy;
@@ -60,7 +63,7 @@ drop schema if exists wudafu;
 drop schema wudafu;
 
 -- 3、
--- 删除数据集 wudagui
+-- 删除数据表的集合 wudagui
 drop schema if exists wudagui;
 -- 或者
 drop schema wudagui;
