@@ -34,10 +34,10 @@ Windows 下启动：<br/>
 激活集群<br/>
 Linux/Mac 下激活集群：<br/>
 ```shell
-> ./control.sh --activate
+> ./control.sh --set-state ACTIVE
 ```
 
 Windows 下激活集群：<br/>
 ```shell
-> ./control.bat --activate
+> ./control.bat --set-state ACTIVE
 ```
