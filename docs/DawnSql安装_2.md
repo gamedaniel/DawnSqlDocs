@@ -49,17 +49,18 @@ Windows 下激活集群：<br/>
 
 ## 5、登录 DBeaverWeb
 在浏览器中输入 http://localhost:8086/login
-<img src='/smart_sql_img/login_web.jpg'></img>
-<img src='/smart_sql_img/dawnclient.jpg'></img>
+<br/>
+<img src='/smart_sql_img/login_web.jpg'></img><br/>
+<img src='/smart_sql_img/dawnclient.jpg'></img><br/>
 
-**注意：在默认的配置下，DawnSql 需要端口 8091 开放，用于跟 DBeaverWeb 通讯。而 DBeaverWeb 默认的端口是 8086。**
-**用户如果需要修改这些端口，或者扩展其方法，可以直接修改源代码**
-**DBeaverWeb：https://gitee.com/wltz/DawnSqlPlus/tree/master/modules/DBeaverWeb**
-**my-dawn-rpc-server：https://gitee.com/wltz/dawn-sql-db/tree/master/modules/my-dawn-rpc-server**
+**注意：在默认的配置下，DawnSql 需要端口 8091 开放，用于跟 DBeaverWeb 通讯。而 DBeaverWeb 默认的端口是 8086。**<br/>
+**用户如果需要修改这些端口，或者扩展其方法，可以直接修改源代码**<br/>
+**DBeaverWeb：https://gitee.com/wltz/DawnSqlPlus/tree/master/modules/DBeaverWeb**<br/>
+**my-dawn-rpc-server：https://gitee.com/wltz/dawn-sql-db/tree/master/modules/my-dawn-rpc-server**<br/>
 
 ## 6、开源地址：
 ### 6.1、DawnSqlDb：https://gitee.com/wltz/dawn-sql-db
 ### 6.2、DawnSql：https://gitee.com/dawnsql/dawnsql
-### 6.3、DawnSqlPlus 下载地址：https://gitee.com/wltz/DawnSqlPlus
+### 6.3、DawnSqlPlus：https://gitee.com/wltz/DawnSqlPlus
 
 
