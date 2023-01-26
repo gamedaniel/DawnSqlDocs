@@ -2,7 +2,8 @@
 
   - [介绍](DawnSql教程_1.md)
   - [安装](DawnSql安装_2.md)
-  - [链接数据库](DawnSql链接数据库_3.md)
+  - [DBeaverWeb链接数据库(推荐)](DawnSqlWeb.md)
+  - [DBeaver链接数据库](DawnSql链接数据库_3.md)
   - [DawnSql 企业应用的设计思想](DawnSql企业应用的设计思想_4.md)
   - [DLL的支持](DLL的支持_6.md)
   - [DML的支持](DML的支持_7.md)
