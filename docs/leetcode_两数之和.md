@@ -30,7 +30,7 @@ twoSum([3,3], 6);
 
 ## 执行结果
 
-![two_sum](/Users/chenfei/DawnSqlDoc/docs/smart_sql_img/two_sum.jpg)
+<img src='/smart_sql_img/two_sum.jpg'></img><br/>
 
 ## 在 JDBC 中执行
 ```java
@@ -69,7 +69,7 @@ func：twosum<br/>
 params: [2,7,11,15],9 <br/>
 ## JDBC运行结果
 
-![two_sum_jdbc](/Users/chenfei/DawnSqlDoc/docs/smart_sql_img/two_sum_jdbc.jpg)
+<img src='/smart_sql_img/two_sum_jdbc.jpg'></img><br/>
 
 ## 要点
 1. count 返回序列大小
