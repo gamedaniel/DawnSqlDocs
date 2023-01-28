@@ -49,7 +49,7 @@ seq_sort([[1,3,90], [2,4,10], [5,21]]);
 ```
 ## 执行结果
 
-![seq_sort](/Users/chenfei/DawnSqlDoc/docs/smart_sql_img/seq_sort.jpg)
+<img src='/smart_sql_img/seq_sort.jpg'></img><br/>
 
 ## 在 JDBC 中执行
 ```java
@@ -89,7 +89,7 @@ params: [[1,3,90],[2,4,10],[5,21]] <br/>
 
 ## JDBC运行结果
 
-![seq_sort_run](/Users/chenfei/DawnSqlDoc/docs/smart_sql_img/seq_sort_run.jpg)
+<img src='/smart_sql_img/seq_sort_run.jpg'></img><br/>
 
 ## 要点
 
