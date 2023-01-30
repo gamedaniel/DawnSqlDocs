@@ -25,3 +25,6 @@
 **保存到数据库的意思是将 DawnSql 的方法，直接保存到数据表，MY_META.MY_SCENES 中，这样在 DawnSql 体系中就可以使用这个方法了**
 
 <img src='/smart_sql_img/dbeaver_scenes.jpg'></img><br/>
+
+## 5、双击 Grid 里面的行就可以弹出详细内容
+<img src='/smart_sql_img/show_detail.jpg'></img><br/>
