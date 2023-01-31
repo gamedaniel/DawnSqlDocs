@@ -19,3 +19,6 @@
 4. DawnSql 能够快速灵活的和工程做融合
 5. DawnSql 能极大的赋能业务，降本增效
 
+## 3、DawnSql 交流群
+<img src='/smart_sql_img/WechatIMG5.jpeg'></img>
+
