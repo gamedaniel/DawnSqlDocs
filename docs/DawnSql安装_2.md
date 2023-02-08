@@ -8,7 +8,7 @@
 
 ## 2、下载地址
 ### 2.1、Java 下载地址：https://www.java.com/en/download/
-### 2.2、DawnSql 下载地址：https://share.weiyun.com/dWPUUi9Q
+### 2.2、DawnSql 下载地址：https://share.weiyun.com/tyG43oPK
 ### 2.3、Dbeaver 下载地址：https://dbeaver.io/download/
 ### 2.4、DBeaverWeb 下载地址：https://share.weiyun.com/KvjWgVmu
 ### 2.5、测试数据下载地址：https://share.weiyun.com/ROZEIHiI
